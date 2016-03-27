@@ -14,5 +14,5 @@ float boo(float far)
 float doo(int har)
 {
 	float rtn = 37.0f + boo(har);
-	return 0.0f; // TODO
+	return rtn;
 }
