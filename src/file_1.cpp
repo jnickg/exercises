@@ -10,3 +10,9 @@ float boo(float far)
 	float rtn = far + foo(far);
 	return rtn;
 }
+
+float doo(int har)
+{
+	float rtn = 37.0f + boo(har);
+	return 0.0f; // TODO
+}
