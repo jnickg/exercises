@@ -1,12 +1,12 @@
 #include "file_1.h"
 
-float foo(int bar)
+double foo(int bar)
 {
-	return (float)bar;
+	return (double)bar;
 }
 
 float boo(float far)
 {
-	float rtn = far + foo(far);
+	float rtn = far + (float)foo(far);
 	return rtn;
 }
