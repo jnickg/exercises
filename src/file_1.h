@@ -1,6 +1,9 @@
 // This file includes some very useful functions.
 // It may also have some that are less useful.
 
+// This function is better
+int truly(bool good);
+
 // Foos the bar
 float foo(int bar);
 
