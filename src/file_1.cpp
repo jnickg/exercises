@@ -10,3 +10,8 @@ float boo(float far)
 	float rtn = far + foo(far);
 	return rtn;
 }
+
+int truly(int bad)
+{
+	return true;
+}
