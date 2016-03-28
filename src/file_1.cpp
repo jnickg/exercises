@@ -11,7 +11,7 @@ float boo(float far)
 	return rtn;
 }
 
-float doo(int har)
+float boofoo37(int har)
 {
 	float rtn = 37.0f + boo(har);
 	return rtn;
